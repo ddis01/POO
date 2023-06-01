@@ -1,0 +1,39 @@
+.container-cards{
+        display: flex;
+        gap: 12px;
+}
+.card{
+    background: linear-gradient(180deg, #276ee0, #009cce);
+    border-radius: 16px;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foto{
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.info .modelo{
+    font-size: 14pt;
+    color: #f2f2f2
+}
+.info .marca{
+    font-size: 10pt;
+    color: #ececec
+}
+.info .outros{
+    font-size: 10pt;
+    color: white;
+}
+
+.info .separador{
+    color: #999999;
+    padding: 10px;
+}
+
